@@ -9,7 +9,8 @@ public class run {
 
     public static void main(String[] args) {
         board boardy = new board();
+        boardy.genBoard();
+        boardy.fillBoard();
         boardy.printBoard();
-        boardy.printList();
     }
 }
